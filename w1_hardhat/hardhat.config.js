@@ -21,18 +21,18 @@ module.exports = {
         mnemonic: mnemonic,
       },
     },
-    goerli: {
-      url: "https://eth-goerli.api.onfinality.io/public",
-      accounts: [PRIVATE_KEY1],
-      chainId: 5,
-    },
-    mumbai: {
-      url: "https://endpoints.omniatech.io/v1/matic/mumbai/public",
-      accounts: {
-        mnemonic: mnemonic,
-      },
-      chainId: 80001,
-    },
+    // goerli: {
+    //   url: "https://eth-goerli.api.onfinality.io/public",
+    //   accounts: [PRIVATE_KEY1],
+    //   chainId: 5,
+    // },
+    // mumbai: {
+    //   url: "https://endpoints.omniatech.io/v1/matic/mumbai/public",
+    //   accounts: {
+    //     mnemonic: mnemonic,
+    //   },
+    //   chainId: 80001,
+    // },
 
   },
 
